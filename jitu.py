@@ -15,7 +15,7 @@ from itertools import groupby
 from contextlib import contextmanager
 from time import time
 from sys import stdout
-# from dottree import dotree as dot
+from dottree import dotree as dot
 
 @contextmanager
 def duration_in_seconds(outfile=stdout):
